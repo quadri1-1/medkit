@@ -1,0 +1,78 @@
+.drug{
+    background-color: #BEECFF;
+    margin-top: 50px;
+}
+.covid {
+    width: 300px;
+    
+}
+.vass h3{
+    color: #1E3673;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.vass p{
+    color: #1E3673;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+.vass button{
+    width: 119.835px;
+    height: 39px;
+    border-radius: 20px;
+    background: #FFF;
+    color: #1E3673;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 44px;
+}
+.covid2{
+    display: none;
+}
+.ipsum{
+    display: none;
+}
+.vass{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 90%;
+}
+@media(min-width: 900px){
+    .ipsum{
+        display: block;
+    }
+    .dolor{
+        display: none;
+    }
+    .covid{
+        display: none;
+    }
+    .covid2{
+        display: block;
+    }
+    .drug{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .vass p{
+        font-size: 20px;
+    }
+    .vass h3{
+        margin-top: 116px;
+        font-size: 36px;
+    }
+    .vass{
+        margin-left: 100px;
+    }
+    .vass button{
+        width: 197px;
+        height: 60px;
+        font-size: 20px
+    }
+}

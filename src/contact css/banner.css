@@ -1,0 +1,15 @@
+.cont{
+    background-image: url(../assets/images/Rectangle47.png);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    height: 119px;
+    padding-top: 48px;
+}
+@media(min-width: 900px){
+    .cont{
+        height: 284px;
+    }
+}
